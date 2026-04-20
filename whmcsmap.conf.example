@@ -1,0 +1,4 @@
+# old WHMCS product ID = new WHMCS product ID
+# Copy this file to whmcsmap.conf locally and replace the sample IDs.
+100=200
+101=201

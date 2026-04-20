@@ -1,0 +1,21 @@
+# Keep only the files needed for the initial remote commit.
+*
+!/.gitignore
+!/README.md
+!/.env.example
+!/whmcsmap.conf.example
+!/pyproject.toml
+!/vz2vf-migrate
+!/scripts/
+!/scripts/**
+
+!/vz2vf_migrate/
+!/vz2vf_migrate/**/*.py
+
+# Ignore generated and editor artifacts inside allowed paths.
+**/__pycache__/
+**/*.py[cod]
+**/*.swp
+/.pytest_cache/
+/.ruff_cache/
+/.testvenv/

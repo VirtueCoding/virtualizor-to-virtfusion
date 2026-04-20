@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+from vz2vf_migrate.cli import main
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

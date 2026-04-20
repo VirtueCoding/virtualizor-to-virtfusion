@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vz2vf-migrate"
+version = "0.1.0"
+description = "CLI for migrating Virtualizor KVM VMs into VirtFusion"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+vz2vf-migrate = "vz2vf_migrate.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["vz2vf_migrate*"]
